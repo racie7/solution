@@ -11,6 +11,13 @@ Create a .env file in the project root with the following key
 API_KEY=your-api-key-for-cryptocompare
 ```
 
+Due to the large size of csv file, increase the node default memory size from 2048 to atleast 8GB
+
+```
+export NODE_OPTIONS="--max-old-space-size=8192" 
+
+```
+
 <h2>Usage</h2>
 <hr/>
 
